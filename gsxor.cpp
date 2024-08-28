@@ -111,13 +111,12 @@ void GSXor_Decrypt(unsigned char* input, unsigned int size) {
 }
 
 static void test(unsigned char* input, const unsigned int size, const std::string test_name) {
-    unsigned char* ptr = input;
     printf("%s test\nData:\n", test_name.c_str());
     print_buf(input, size);
-    GSXor_Encrypt(ptr, size);
+    GSXor_Encrypt(input, size);
     printf("Encrypted:\n");
     print_buf(input, size);
-    GSXor_Decrypt(ptr, size);
+    GSXor_Decrypt(input, size);
     printf("Decrypted:\n");
     print_buf(input, size);
     printf("\n");
