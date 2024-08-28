@@ -1,0 +1,36 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gsxor", "gsxor.vcxproj", "{5F157E88-DF5E-43D6-8CD2-F396D7E9DC15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7573F685-7C63-4793-82E3-C46A70180FC5}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F157E88-DF5E-43D6-8CD2-F396D7E9DC15}.Debug|x64.ActiveCfg = Debug|x64
+		{5F157E88-DF5E-43D6-8CD2-F396D7E9DC15}.Debug|x64.Build.0 = Debug|x64
+		{5F157E88-DF5E-43D6-8CD2-F396D7E9DC15}.Debug|x86.ActiveCfg = Debug|Win32
+		{5F157E88-DF5E-43D6-8CD2-F396D7E9DC15}.Debug|x86.Build.0 = Debug|Win32
+		{5F157E88-DF5E-43D6-8CD2-F396D7E9DC15}.Release|x64.ActiveCfg = Release|x64
+		{5F157E88-DF5E-43D6-8CD2-F396D7E9DC15}.Release|x64.Build.0 = Release|x64
+		{5F157E88-DF5E-43D6-8CD2-F396D7E9DC15}.Release|x86.ActiveCfg = Release|Win32
+		{5F157E88-DF5E-43D6-8CD2-F396D7E9DC15}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7606097D-7B05-4734-AAF1-2B2E3FFD9432}
+	EndGlobalSection
+EndGlobal
